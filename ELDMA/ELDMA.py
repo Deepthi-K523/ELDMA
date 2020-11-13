@@ -195,7 +195,7 @@ def CNN_feature(x,y):
 
 
 
-def DeepMDA():
+def DeepDMA():
     X, labels,T = prepare_data(seperate = True)     
       
     X_data1, X_data2 = transfer_array_format(X)    
@@ -338,4 +338,4 @@ def transfer_label_from_prob(proba):
 
 
 if __name__=="__main__":
-    DeepMDA()
+    DeepDMA()
